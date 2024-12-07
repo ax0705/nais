@@ -1,0 +1,23 @@
+{
+    "name": "nais/extensions",
+    "description": "Extensions, helpers, modules and functions",
+    "type": "library",
+    "license": "GPL-3.0-only",
+    "autoload": {
+        "psr-4": {
+            "Nais\\Providers\\": "src/Providers",
+            "Nais\\Extensions\\": "src/Extensions"
+
+        }
+    },
+    "authors": [
+        {
+            "name": "Nick Kudenko",
+            "email": "nick@ip.kharkov.ua"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.2"
+    }
+}
