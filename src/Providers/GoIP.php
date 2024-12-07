@@ -21,4 +21,10 @@ class GoIP
         $this->$name = $value;
     }
 
+    public function sendUSSD (array $inputArray) {
+        foreach ($inputArray as $key => $value) {
+
+        }
+    }
+
 }
