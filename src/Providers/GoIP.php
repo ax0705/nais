@@ -14,7 +14,6 @@ class GoIP
         $this->url = $url;
         $this->login = $login;
         $this->password = $password;
-        echo "Hello";
     }
 
     public function __set($name, $value)
